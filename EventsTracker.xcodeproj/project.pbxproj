@@ -21,6 +21,7 @@
 		6136517825F8C5DC0054B2DB /* GoogleAnalytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6136517025F8C5DC0054B2DB /* GoogleAnalytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6136517F25F8C5EE0054B2DB /* Bugfender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136517E25F8C5EE0054B2DB /* Bugfender.swift */; };
 		6136518325F8C6540054B2DB /* GoogleAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136518225F8C6540054B2DB /* GoogleAnalytics.swift */; };
+		6136518725F8C9010054B2DB /* EventsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6136518625F8C9010054B2DB /* EventsTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		6136517325F8C5DC0054B2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6136517E25F8C5EE0054B2DB /* Bugfender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bugfender.swift; sourceTree = "<group>"; };
 		6136518225F8C6540054B2DB /* GoogleAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAnalytics.swift; sourceTree = "<group>"; };
+		6136518625F8C9010054B2DB /* EventsTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventsTracker.swift; path = GoogleAnalytics/EventsTracker.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				6136514325F8C5270054B2DB /* AppDelegate.swift */,
 				6136514525F8C5270054B2DB /* SceneDelegate.swift */,
 				6136514725F8C5270054B2DB /* ViewController.swift */,
+				6136518625F8C9010054B2DB /* EventsTracker.swift */,
 				6136514925F8C5270054B2DB /* Main.storyboard */,
 				6136514C25F8C52A0054B2DB /* Assets.xcassets */,
 				6136514E25F8C52A0054B2DB /* LaunchScreen.storyboard */,
@@ -310,6 +313,7 @@
 				6136514825F8C5270054B2DB /* ViewController.swift in Sources */,
 				6136514425F8C5270054B2DB /* AppDelegate.swift in Sources */,
 				6136514625F8C5270054B2DB /* SceneDelegate.swift in Sources */,
+				6136518725F8C9010054B2DB /* EventsTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
